@@ -1,7 +1,6 @@
 import React from "react";
 
 const Star = (props) => {
-  console.log("PROPS>>", props);
   const { color, value, handleHover, handleHoverLeave, handleClick, isFilled } =
     props;
   if (!handleHover) {
